@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <title>Sign-Up Form</title>
 </head>
 <body>
@@ -21,7 +21,44 @@
             </div>         
         </div>
         <div class="information-container">
-            
+            <p class="explanation-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started<br><br>You know you want to.</p>
+            <div class="form-section">
+                <h3>Let's do this!</h3>
+                <form action="" id="sign-up">
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name">
+                        </div>
+                        <div class="form-field">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-field">
+                            <label for="number">PHONE NUMBER</label>
+                            <input type="tel" id="number" name="number">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div class="form-field">
+                            <label for="conf-password">CONFIRM PASSWORD</label>
+                            <input type="password" id="conf-password" name="conf-password">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <button type="submit" form="sign-up">Create Account</button>
+            <p class="existing-user">Already have an account? <a href="#">Log in</a></p>            
         </div>
     </div>    
 </body>
